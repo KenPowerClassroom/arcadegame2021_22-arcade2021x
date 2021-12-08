@@ -80,4 +80,5 @@ TEST(AngleTest, Assignment) {
 	c = a;
 
 	EXPECT_NEAR(42, c.degrees(), epsilon);
+	EXPECT_TRUE(false);
 }
